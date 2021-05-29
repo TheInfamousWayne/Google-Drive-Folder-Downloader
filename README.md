@@ -18,6 +18,7 @@ A tools that uses Google Drive APIs V3 to download folders.
 On the first launch you will have to authorize the application via a webbrowser. The python libraries will take care of that.
 
 ```
+example: python download.py -f /folder_name_inside_my_drive/ -d ./data/
 usage: download.py [-h] [-f DIRS_FROM [DIRS_FROM ...]] [-d DIR_TO] [-l] [-v]
 
 Google Drive folder and files download
